@@ -1,0 +1,36 @@
+/* General Page Styling */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+}
+
+/* Container to Center Everything */
+.container {
+    margin-top: 50px;
+}
+
+/* Bulb & String Container */
+.bulb-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bulb Image */
+#bulb {
+    width: 100px;
+    transition: 0.3s;
+}
+
+/* Pull String */
+.string {
+    width: 5px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    cursor: pointer;
+}
